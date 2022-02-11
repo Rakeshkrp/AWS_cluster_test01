@@ -9,10 +9,10 @@ terraform {
 
 
   backend "remote" {
-    organization = "SREYODEV"
+    organization = "SREYO"
 
     workspaces {
-      name = "AWS_cluster_test01"
+      name = "testing_vscode_github"
     }
   }
 
